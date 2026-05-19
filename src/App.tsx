@@ -75,7 +75,7 @@ export default function App() {
         "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop",
     };
 
-    setHellaProducts((prev) => ({
+    setHellaProducts((prev: any) => ({
       ...prev,
       [newProduct.category]: [
         ...(prev[newProduct.category] || []),
@@ -199,7 +199,7 @@ export default function App() {
           </div>
 
           <div className="space-y-20">
-            {Object.entries(hellaProducts).map(([category, products]) => (
+            {Object.entries(hellaProducts).map(([category, products]: any) => (
               <div key={category}>
                 <div className="flex items-center justify-between mb-8">
                   <h3 className="text-4xl font-extrabold text-[#0d1b2a]">
@@ -212,7 +212,7 @@ export default function App() {
                 </div>
 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
-                  {products.map((item) => (
+                  {products.map((item: any) => (
                     <div
                       key={item.sku}
                       className="group bg-white rounded-[30px] overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-200"
