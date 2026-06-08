@@ -1,0 +1,11 @@
+{
+  "latestVersion": "1.0.0",
+  "downloadUrl": "https://github.com/mahienterprise006-coder/mahi-automobiles/releases/download/v1.0.0/app-release.apk",
+  "isForceUpdate": false,
+  "releaseNotes": [
+    "Initial stable release with full Indian market car models list",
+    "Admin product catalog registration form enabled",
+    "Predictive AI Diagnostics engine and RTO region lookup",
+    "Self-drop booking verification with WhatsApp receipt dispatch"
+  ]
+}
