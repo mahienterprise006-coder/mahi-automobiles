@@ -1,10 +1,9 @@
 {
-  "latestVersion": "1.1.0",
-  "downloadUrl": "https://github.com/mahienterprise006-coder/mahi-automobiles/releases/download/v1.1.0/app-release.apk",
+  "latestVersion": "1.2.0",
+  "downloadUrl": "https://github.com/mahienterprise006-coder/mahi-automobiles/releases/download/v1.2.0/app-release.apk",
   "isForceUpdate": false,
   "releaseNotes": [
-    "Integrated the complete 16 car brands and models from the PDF",
-    "Added 'Others' fallback option to all car selector models",
-    "Admin product catalog creation form dialog added"
+    "Cleared all default product catalog listings from spares shop",
+    "Reset stock inventory list"
   ]
 }
